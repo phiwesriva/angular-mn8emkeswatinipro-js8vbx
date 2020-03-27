@@ -25,6 +25,9 @@ import { CommComponent } from './comm/comm.component';
 import { ResiComponent } from './resi/resi.component';
 import { InterComponent } from './inter/inter.component';
 import { LandlComponent } from './landl/landl.component';
+import { ReadtmComponent } from './readtm/readtm.component';
+import { ReadcharComponent } from './readchar/readchar.component';
+import { BenefitsComponent } from './benefits/benefits.component';
 
 
 @NgModule({
@@ -73,6 +76,9 @@ import { LandlComponent } from './landl/landl.component';
     ResiComponent,
     InterComponent,
     LandlComponent,
+    ReadtmComponent,
+    ReadcharComponent,
+    BenefitsComponent,
     
   ],
   bootstrap: [ AppComponent ],
