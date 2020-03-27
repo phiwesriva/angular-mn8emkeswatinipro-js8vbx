@@ -53,6 +53,9 @@ import { BenefitsComponent } from './benefits/benefits.component';
       { path: 'resi', component: ResiComponent },
       { path: 'inter', component: InterComponent },
       { path: 'landl', component: LandlComponent },
+      { path: 'readtm', component: ReadtmComponent },
+      { path: 'readchar', component: ReadcharComponent },
+      { path: 'benefits', component: BenefitsComponent },
     ])
   ],
   declarations: [
