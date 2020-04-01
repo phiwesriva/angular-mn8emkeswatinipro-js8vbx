@@ -28,6 +28,8 @@ import { LandlComponent } from './landl/landl.component';
 import { ReadtmComponent } from './readtm/readtm.component';
 import { ReadcharComponent } from './readchar/readchar.component';
 import { BenefitsComponent } from './benefits/benefits.component';
+import { RatesComponent } from './rates/rates.component';
+import { SectionsComponent } from './sections/sections.component';
 
 
 @NgModule({
@@ -56,6 +58,8 @@ import { BenefitsComponent } from './benefits/benefits.component';
       { path: 'readtm', component: ReadtmComponent },
       { path: 'readchar', component: ReadcharComponent },
       { path: 'benefits', component: BenefitsComponent },
+      { path: 'rates', component: RatesComponent },
+      { path: 'sections', component: SectionsComponent },
     ])
   ],
   declarations: [
@@ -82,6 +86,8 @@ import { BenefitsComponent } from './benefits/benefits.component';
     ReadtmComponent,
     ReadcharComponent,
     BenefitsComponent,
+    RatesComponent,
+    SectionsComponent,
     
   ],
   bootstrap: [ AppComponent ],

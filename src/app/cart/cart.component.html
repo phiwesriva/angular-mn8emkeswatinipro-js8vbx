@@ -3,13 +3,13 @@
 <!--<p>
   <a routerLink="/shipping">Delivery Prices</a>
 </p>-->
-
+ 
 <div class="cart-item" *ngFor="let item of items">
   <span>{{ item.name }}</span>
   <span>{{ item.price | currency: 'E'  }}</span>
 </div>
 
-<form [formGroup]="checkoutForm" (ngSubmit)="onSubmit(checkoutForm.value)">
+<form [formGroup]="checkoutForm" (ngSubmit)="onSubmit(checkoutForm.value)" >
 <table class="center" style="width:100%">
 
 <tr>
